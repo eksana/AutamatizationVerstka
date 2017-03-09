@@ -1,0 +1,20 @@
+.barbershop{
+	/*background-color: red;*/
+	background-image: linear-gradient($deg1,($color1) $pers1,($color2 ) $pers2);
+	padding: 40px;
+
+}
+.barbershop-container {
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	color: $color3;
+	margin: 30px auto;
+	width: 60%;
+	padding: 20% 40px;
+	position: relative;
+	border-radius:10px;
+	background: url(../images/barber.jpeg) center center no-repeat;
+	background-size: cover;
+	box-shadow: $shadow1 $shadow2 $shadow3 $shadow4 $color4;
+	overflow: hidden;
+}
